@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 15px;
+  border-style: solid;
+  border-radius: 10px;
+  font-family: roboto;
+  border-width: 1px;
+  border-color: #b5b7c4;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 13vw;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #171f46;
+  margin: 10px;
+  font-size: 20px;
+}
+.date {
+  color: #b5b7c4;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.star {
+  background-color: transparent;
+  border-style: none;
+}
