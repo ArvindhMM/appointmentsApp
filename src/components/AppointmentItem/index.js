@@ -8,8 +8,8 @@ const AppointmentItem = props => {
   const {id, title, date, isStarred} = eachAppointment
 
   const URL = isStarred
-    ? 'https://assets.ccbp.in/frontend/react-js/appointments-app/star-img.png'
-    : 'https://assets.ccbp.in/frontend/react-js/appointments-app/filled-star-img.png'
+    ? 'https://assets.ccbp.in/frontend/react-js/appointments-app/filled-star-img.png'
+    : 'https://assets.ccbp.in/frontend/react-js/appointments-app/star-img.png'
 
   const onClickStarIcon = () => {
     toggleIsStarred(id)
